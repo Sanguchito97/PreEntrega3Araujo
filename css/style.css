@@ -131,3 +131,7 @@ hr {
 .solid {
   border-top: 1px solid black;
 }
+.div containter {
+  justify-content: center;
+  text-align: center;
+}
