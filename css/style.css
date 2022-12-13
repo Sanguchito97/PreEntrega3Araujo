@@ -117,3 +117,17 @@ body {
   font-size: 13px;
   opacity: 0.6;
 }
+.col-2 {
+  width: 75%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr {
+  border-top: 3px solid rgb(0, 0, 0);
+}
+.solid {
+  border-top: 1px solid black;
+}
