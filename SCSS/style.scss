@@ -1,11 +1,131 @@
 menu {
   background-color: rgb(196, 243, 255);
 }
+a {
+  margin-top: 0%;
+  text-align: center;
+}
+a:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(159, 249, 255),
+    rgb(253, 228, 180),
+    rgb(245, 169, 255)
+  );
+  animation: slidebg 2s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
 h2 {
   margin-right: auto;
   padding: 10px;
-  background-color: rgba(177, 255, 255, 0.897);
+  background-color: rgba(240, 226, 166);
+}
+row {
+  padding: 10px;
+  display: grid;
+  width: 500px;
+  margin: 10px;
+  border: 3px solid black;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+grid-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  background: linear-gradient(30deg, rgb(109, 109, 109), rgb(131, 236, 255));
 }
 body {
-  background: linear-gradient(30deg, rgb(255, 174, 187), rgb(131, 236, 255));
+  background: linear-gradient(
+    40deg,
+    rgb(240, 226, 166),
+    rgba(131, 236, 255, 0.411)
+  );
+}
+footer-clean {
+  padding: 50px 0;
+  background-color: rgb(133, 133, 133);
+  color: #4b4c4d;
+  align-content: center;
+}
+
+footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer-clean ul a:hover {
+  opacity: 1;
+}
+footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: rgb(240, 226, 166);
+  opacity: 0.75;
+}
+
+footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+col-2 {
+  width: 75%;
+}
+row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr {
+  border-top: 3px solid rgb(0, 0, 0);
+}
+solid {
+  border-top: 1px solid black;
 }

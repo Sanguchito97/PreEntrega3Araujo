@@ -3,8 +3,8 @@
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   },
-  "name": "entrega",
-  "description": "PreEntregaAraujo",
+  "name": "Musicardium",
+  "description": "PreEntrega3Araujo",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
