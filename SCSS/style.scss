@@ -129,3 +129,14 @@ hr {
 solid {
   border-top: 1px solid black;
 }
+@mixin center-content {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.parent-container {
+  @include center-content;
+}
