@@ -1,6 +1,9 @@
 .menu {
   background-color: rgb(196, 243, 255);
 }
+p {
+  font-family: "Hanken Grotesk", sans-serif;
+}
 a {
   margin-top: 0%;
   text-align: center;
@@ -37,7 +40,7 @@ h2 {
   padding: 20px;
   display: grid;
   grid-template-columns: auto;
-  background: linear-gradient(30deg, rgb(109, 109, 109), rgb(131, 236, 255));
+  background: linear-gradient(30deg, rgb(228, 228, 228), rgb(138, 138, 138));
 }
 body {
   background: linear-gradient(
